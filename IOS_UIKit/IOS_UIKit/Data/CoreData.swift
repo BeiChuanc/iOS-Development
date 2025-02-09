@@ -8,5 +8,5 @@
 import Foundation
 import SQLite3
 
-// MARK: SQLite数据库
+// MARK: SQLite Database.
 

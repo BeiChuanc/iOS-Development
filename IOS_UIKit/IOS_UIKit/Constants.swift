@@ -8,6 +8,7 @@
 import Foundation
 import UIKit
 
+// MARK: Global constant definitions.
 enum APPSCREEN {
     
     static let WIDTH = UIScreen.main.bounds.size.width

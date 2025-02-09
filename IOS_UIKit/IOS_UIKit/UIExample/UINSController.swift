@@ -10,68 +10,68 @@ import UIKit
 
 class UINSController: UIViewController {
     
-    // UIView
-    var OuterView = UIView.init()
+    var outerView = UIView.init()
     
-    // 初始化视图
+    var showLabel = UILabel.init()
+    
+    var showImage = UIImageView.init(image: UIImage(named: "pig"))
+    
+    // Initializing the View
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        print("初始化制图控制器")
+        print("Initialize the drawing controller.")
         
-        // 添加监听, object可用于传值
+        // Add listener, object can be used to pass value.
         NotificationCenter.default.addObserver(self, selector: #selector(notification), name: NSNotification.Name(NotificationName.UINS.rawValue), object: nil)
     }
     
-    // 实例化
+    // Instantiation
     required init?(coder: NSCoder) {
-        print("实例化中") // Storyboard、XIB加载视图
+        print("Instantiating")
         fatalError("init(coder:) has not been implemented")
     }
     
-    // 视图加载完毕
+    // View loaded
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("视图加载完毕")
+        print("View loaded")
+        view.backgroundColor = .white
         
         setUpUILayout()
     }
     
-    // 视图将出现
+    // The view will appear.
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print("视图将出现")
+        print("The view will appear")
     }
     
-    // 布局将要发生变化
+    // The layout is going to change.
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        print("布局发生变化")
+        print("Layout changes")
     }
     
-    // 视图将消失
+    // The view will disappear
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
-        print("视图将消失")
+        print("The view will disappear")
     }
     
-    // 对象释放自动调用
+    // Object release is automatically called.
     deinit {
-        print("对象释放")
-        // 移除监听
+        print("Object Release")
+        // Remove Listener
         NotificationCenter.default.removeObserver(self)
     }
     
-    // 监听
+    // monitor
     @objc func notification() {
-        print("监听方法被调用")
+        print("The listener method is called.")
     }
     
     func setUpUILayout() {
-        
-        OuterView.frame = CGRect(x: 0, y: 0, width: Int(APPSCREEN.WIDTH), height: Int(APPSCREEN.HEIGHT))
-        view.addSubview(OuterView)
-        view.backgroundColor = .red
-        
+        outerView.frame = CGRect(x: 0, y: 0, width: Int(APPSCREEN.WIDTH), height: Int(APPSCREEN.HEIGHT))
+        view.addSubview(outerView)
     }
-    
 }

@@ -7,6 +7,7 @@
 
 import Foundation
 
+// MARK: Global Notification.
 enum NotificationName: String {
     
     case UINS
