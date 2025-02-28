@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9073AB752D66DE4A000F35F3 /* HideKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9073AB742D66DE4A000F35F3 /* HideKeyBoard.swift */; };
 		9076831A2D5868D5002F3FEF /* IOS_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907683192D5868D5002F3FEF /* IOS_UIApp.swift */; };
 		9076831C2D5868D5002F3FEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9076831B2D5868D5002F3FEF /* ContentView.swift */; };
 		9076831E2D5868D6002F3FEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9076831D2D5868D6002F3FEF /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9073AB742D66DE4A000F35F3 /* HideKeyBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyBoard.swift; sourceTree = "<group>"; };
 		907683162D5868D5002F3FEF /* IOS_UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_UI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		907683192D5868D5002F3FEF /* IOS_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_UIApp.swift; sourceTree = "<group>"; };
 		9076831B2D5868D5002F3FEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9073AB732D66DE1F000F35F3 /* SupportFile */ = {
+			isa = PBXGroup;
+			children = (
+				9073AB742D66DE4A000F35F3 /* HideKeyBoard.swift */,
+			);
+			path = SupportFile;
+			sourceTree = "<group>";
+		};
 		9076830D2D5868D5002F3FEF = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +113,7 @@
 				9076831D2D5868D6002F3FEF /* Assets.xcassets */,
 				907683222D5868D6002F3FEF /* Persistence.swift */,
 				907683242D5868D6002F3FEF /* IOS_UI.xcdatamodeld */,
+				9073AB732D66DE1F000F35F3 /* SupportFile */,
 				9076831F2D5868D6002F3FEF /* Preview Content */,
 			);
 			path = IOS_UI;
@@ -263,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9073AB752D66DE4A000F35F3 /* HideKeyBoard.swift in Sources */,
 				907683232D5868D6002F3FEF /* Persistence.swift in Sources */,
 				9076831C2D5868D5002F3FEF /* ContentView.swift in Sources */,
 				9076831A2D5868D5002F3FEF /* IOS_UIApp.swift in Sources */,
