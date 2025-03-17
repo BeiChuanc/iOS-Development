@@ -9,16 +9,16 @@
 /* Begin PBXBuildFile section */
 		9073AB842D714D56000F35F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073AB832D714D56000F35F3 /* AppDelegate.m */; };
 		9073AB8A2D714D56000F35F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073AB892D714D56000F35F3 /* ViewController.m */; };
-		9073AB8D2D714D57000F35F3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9073AB8C2D714D57000F35F3 /* Base */; };
 		9073AB902D714D57000F35F3 /* IOS_OC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9073AB8E2D714D57000F35F3 /* IOS_OC.xcdatamodeld */; };
 		9073AB922D714D58000F35F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9073AB912D714D58000F35F3 /* Assets.xcassets */; };
 		9073AB952D714D58000F35F3 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9073AB942D714D58000F35F3 /* Base */; };
-		9073AB982D714D58000F35F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073AB972D714D58000F35F3 /* main.m */; };
 		9073ABA22D714D58000F35F3 /* IOS_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABA12D714D58000F35F3 /* IOS_OCTests.m */; };
 		9073ABAC2D714D58000F35F3 /* IOS_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABAB2D714D58000F35F3 /* IOS_OCUITests.m */; };
 		9073ABAE2D714D58000F35F3 /* IOS_OCUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABAD2D714D58000F35F3 /* IOS_OCUITestsLaunchTests.m */; };
 		9073ABBC2D714DF9000F35F3 /* StudyFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABBB2D714DF9000F35F3 /* StudyFile.swift */; };
 		9073ABC22D719957000F35F3 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABBD2D719957000F35F3 /* SettingsViewController.m */; };
+		9073ABCF2D71E229000F35F3 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABCE2D71E229000F35F3 /* LoginViewController.m */; };
+		9073ABD32D71E67F000F35F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9073ABD22D71E67F000F35F3 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,18 +44,15 @@
 		9073AB832D714D56000F35F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9073AB882D714D56000F35F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9073AB892D714D56000F35F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9073AB8C2D714D57000F35F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9073AB8F2D714D57000F35F3 /* IOS_OC.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_OC.xcdatamodel; sourceTree = "<group>"; };
 		9073AB912D714D58000F35F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9073AB942D714D58000F35F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9073AB962D714D58000F35F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9073AB972D714D58000F35F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9073AB9D2D714D58000F35F3 /* IOS-OCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-OCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9073ABA12D714D58000F35F3 /* IOS_OCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_OCTests.m; sourceTree = "<group>"; };
 		9073ABA72D714D58000F35F3 /* IOS-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9073ABAB2D714D58000F35F3 /* IOS_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_OCUITests.m; sourceTree = "<group>"; };
 		9073ABAD2D714D58000F35F3 /* IOS_OCUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_OCUITestsLaunchTests.m; sourceTree = "<group>"; };
-		9073ABBA2D714DF8000F35F3 /* IOS-OC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IOS-OC-Bridging-Header.h"; sourceTree = "<group>"; };
 		9073ABBB2D714DF9000F35F3 /* StudyFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyFile.swift; sourceTree = "<group>"; };
 		9073ABBD2D719957000F35F3 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		9073ABBE2D719957000F35F3 /* MessageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageModel.h; sourceTree = "<group>"; };
@@ -63,6 +60,10 @@
 		9073ABC02D719957000F35F3 /* RelationshipModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelationshipModel.h; sourceTree = "<group>"; };
 		9073ABC12D719957000F35F3 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
 		9073ABC32D719A2F000F35F3 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		9073ABCD2D71E229000F35F3 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9073ABCE2D71E229000F35F3 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9073ABD12D71E492000F35F3 /* IOS-OC-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IOS-OC-Bridging-Header.h"; sourceTree = "<group>"; };
+		9073ABD22D71E67F000F35F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,11 +129,10 @@
 				9073ABBE2D719957000F35F3 /* MessageModel.h */,
 				9073ABBF2D719957000F35F3 /* PostModel.h */,
 				9073ABC02D719957000F35F3 /* RelationshipModel.h */,
+				9073ABC12D719957000F35F3 /* UserModel.h */,
 				9073ABC32D719A2F000F35F3 /* SettingsViewController.h */,
 				9073ABBD2D719957000F35F3 /* SettingsViewController.m */,
-				9073ABC12D719957000F35F3 /* UserModel.h */,
-				9073AB8B2D714D57000F35F3 /* Main.storyboard */,
-				9073AB972D714D58000F35F3 /* main.m */,
+				9073ABD22D71E67F000F35F3 /* main.m */,
 			);
 			path = "IOS-OC";
 			sourceTree = "<group>";
@@ -183,6 +183,7 @@
 		9073ABC72D719B51000F35F3 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				9073ABD02D71E2AC000F35F3 /* Controller */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -219,9 +220,18 @@
 			isa = PBXGroup;
 			children = (
 				9073ABBB2D714DF9000F35F3 /* StudyFile.swift */,
-				9073ABBA2D714DF8000F35F3 /* IOS-OC-Bridging-Header.h */,
+				9073ABD12D71E492000F35F3 /* IOS-OC-Bridging-Header.h */,
 			);
 			path = Bridge;
+			sourceTree = "<group>";
+		};
+		9073ABD02D71E2AC000F35F3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9073ABCD2D71E229000F35F3 /* LoginViewController.h */,
+				9073ABCE2D71E229000F35F3 /* LoginViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,7 +340,6 @@
 			files = (
 				9073AB922D714D58000F35F3 /* Assets.xcassets in Resources */,
 				9073AB952D714D58000F35F3 /* Base in Resources */,
-				9073AB8D2D714D57000F35F3 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,10 +364,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9073AB982D714D58000F35F3 /* main.m in Sources */,
 				9073AB8A2D714D56000F35F3 /* ViewController.m in Sources */,
 				9073AB842D714D56000F35F3 /* AppDelegate.m in Sources */,
+				9073ABD32D71E67F000F35F3 /* main.m in Sources */,
 				9073ABBC2D714DF9000F35F3 /* StudyFile.swift in Sources */,
+				9073ABCF2D71E229000F35F3 /* LoginViewController.m in Sources */,
 				9073AB902D714D57000F35F3 /* IOS_OC.xcdatamodeld in Sources */,
 				9073ABC22D719957000F35F3 /* SettingsViewController.m in Sources */,
 			);
@@ -397,14 +407,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9073AB8B2D714D57000F35F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9073AB8C2D714D57000F35F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9073AB932D714D58000F35F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -541,11 +543,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RWJDFZVY8D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IOS-OC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -556,7 +559,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Work.IOS-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "IOS-OC/IOS-OC-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOS-OC/Bridge/IOS-OC-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -572,11 +575,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = RWJDFZVY8D;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "IOS-OC/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -587,7 +591,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Work.IOS-OC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "IOS-OC/IOS-OC-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "IOS-OC/Bridge/IOS-OC-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
